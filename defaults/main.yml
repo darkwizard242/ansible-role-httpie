@@ -1,0 +1,5 @@
+---
+# defaults file for httpie
+
+httpie_app: httpie
+httpie_desired_state: present
