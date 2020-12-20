@@ -23,7 +23,7 @@ httpie_desired_state: present
 
 Variable          | Value (default) | Description
 ----------------- | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------
-httpie_app           | git             | Defines the app to install i.e. **httpie**
+httpie_app           | httpie             | Defines the app to install i.e. **httpie**
 httpie_desired_state | present         | Defined to dynamically chose whether to install (i.e. either `present` or `latest`) or uninstall (i.e. `absent`) the package. Defaults to `present`.
 
 ## Dependencies
