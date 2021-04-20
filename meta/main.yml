@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: httpie
-  author: Ali Muhammad
+  author: darkwizard242
   description: Role for dynamically installing or uninstalling 'httpie', a great http client.
   company: none
   license: MIT
