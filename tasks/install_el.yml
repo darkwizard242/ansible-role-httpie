@@ -2,7 +2,7 @@
 # tasks file for httpie | EL Family
 
 - name: EL Family | Installing {{ httpie_app }}
-  yum:
+  ansible.builtin.yum:
     name: "{{ httpie_app }}"
     state: "{{ httpie_desired_state }}"
     update_cache: yes

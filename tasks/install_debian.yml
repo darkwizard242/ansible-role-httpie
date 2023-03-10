@@ -2,7 +2,7 @@
 # tasks file for httpie | Debian/Ubuntu Family
 
 - name: Debian/Ubuntu Family | {{ httpie_app }}
-  apt:
+  ansible.builtin.apt:
     name: "{{ httpie_app }}"
     state: "{{ httpie_desired_state }}"
     force_apt_get: yes
